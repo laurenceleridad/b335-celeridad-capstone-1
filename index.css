@@ -1,0 +1,24 @@
+/*CSS Reset*/
+/* CSS reset ensures consistent styling across browsers by setting margins and padding to zero. This eliminates default spacing, providing a consistent starting point for styling. Additionally, 'box-sizing: border-box;' ensures accurate sizing by including padding and border in the specified width and height. 
+*/
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.logo {
+	max-width: 100px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.logo:hover {
+    transform: translateX(20px);
+}
+
+
